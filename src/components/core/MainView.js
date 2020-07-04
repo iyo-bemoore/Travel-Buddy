@@ -1,7 +1,12 @@
 import React from "react";
+import Gallery from "./Gallery";
 
 const MainView = () => {
-  return <div>MainView</div>;
+  return (
+    <div className="main-view">
+      <Gallery />
+    </div>
+  );
 };
 
 export default MainView;
