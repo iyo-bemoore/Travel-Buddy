@@ -1,7 +1,7 @@
 import React from "react";
-import Beach from "../../images/beach.png";
-import Beach1 from "../../images/beach1.png";
-import Mountain from "../../images/mountain.png";
+import Beach from "../../images/boat.jpg";
+import Beach1 from "../../images/boat1.jpg";
+import Mountain from "../../images/wind.jpg";
 const Gallery = () => {
   return (
     <div className="gallery">

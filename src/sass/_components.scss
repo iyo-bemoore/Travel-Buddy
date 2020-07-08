@@ -2,6 +2,7 @@
   height: 10rem;
 }
 .side-nav {
+  min-height: 80rem;
   font-size: 1.4rem;
   list-style: none;
   margin-top: 3.5rem;
@@ -60,15 +61,64 @@
 }
 .gallery {
   display: flex;
-  background-color: currentColor;
-  max-height: 30rem;
-  &__item {
-    max-height: 17rem;
-  }
   &__photo {
-    max-height: 17rem;
-    width: auto;
-    max-width: 100%;
+    max-height: 30rem;
+    width: 100%;
     display: block;
+    border-bottom: var(--line);
+  }
+}
+.search {
+  background-color: var(--color-grey-light-2);
+  box-shadow: var(--shadow-light);
+  border-bottom: var(--line);
+  display: flex;
+
+  justify-content: center;
+  padding: 2rem 3rem;
+
+  &__text {
+    border-radius: none;
+    font-family: inherit;
+    font-size: 1.8rem;
+    padding: 1rem;
+    flex: 1;
+    font-style: 1.8rem;
+    color: var(-color-secondary);
+    outline: none;
+  }
+  &__destination {
+    display: flex;
+    flex: 0 0 30%;
+  }
+  &__dates {
+    display: flex;
+    flex: 0 0 30%;
+    &-input {
+      padding: 1.5rem 3rem;
+      outline: none;
+    }
+  }
+  &__pax {
+    display: flex;
+
+    flex: 0 0 30%;
+  }
+  &__btn {
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(-color-secondary);
+
+    &--button {
+      height: 100%;
+      padding: 1.7rem;
+      background-color: #053e9d;
+      text-transform: uppercase;
+      color: #fff;
+      border: none;
+      border-radius: none;
+      font-weight: 600;
+      outline: none;
+    }
   }
 }

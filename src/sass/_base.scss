@@ -13,8 +13,10 @@
 
   --color-blue-light: #e0eafc;
   --color-blue-dark: #cfdef3;
-  --shadow-dark: 0 2rem 6rem rgba(93, 129, 194, 0.3);
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
   --shadow-light: 0 1rem 5rem rgba(0, 0, 0, 0.2);
+  --shadox-box-container: 0 0 0 1px rgba(0, 0, 0, 0.15),
+    0 2px 3px rgba(0, 0, 0, 0.2);
   --line: 1px solid var(--color-grey-light-2);
 }
 ::selection {

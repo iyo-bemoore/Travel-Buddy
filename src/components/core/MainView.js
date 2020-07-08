@@ -1,11 +1,13 @@
 import React from "react";
 import Gallery from "./Gallery";
+import SearchBar from "./SearchBar";
 
 const MainView = () => {
   return (
-    <div className="main-view">
+    <main className="main-view">
       <Gallery />
-    </div>
+      <SearchBar />
+    </main>
   );
 };
 
